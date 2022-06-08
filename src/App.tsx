@@ -5,6 +5,7 @@ import { Worker } from './types';
 import { GrClose } from 'react-icons/gr';
 import Filters from './compontents/Filters';
 import WorkersList from './compontents/WorkersList';
+import Header from './compontents/Header';
 
 Modal.setAppElement('#root');
 
@@ -40,15 +41,7 @@ function App() {
       >
         <div className="flex justify-center px-4">
           <div className="max-w-7xl w-full flex flex-col items-center">
-            <header className="w-full py-10 flex justify-between items-center mb-6">
-              <a href="/">Workers</a>
-              <button
-                className="p-2 bg-slate-300 rounded-md transition hover:brightness-95"
-                onClick={openModal}
-              >
-                Add new worker
-              </button>
-            </header>
+            <Header openModal={openModal} />
             <Filters />
             <WorkersList />
           </div>

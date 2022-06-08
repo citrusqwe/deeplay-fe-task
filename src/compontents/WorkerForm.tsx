@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react';
-import { FormikValues, useFormik } from 'formik';
+import { useFormik } from 'formik';
 import { v4 as uuid } from 'uuid';
 import { Worker, Head } from '../types';
 import workersAPI from '../api';
