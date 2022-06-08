@@ -1,0 +1,30 @@
+{
+  "workers": [
+    {
+      "id": "0b4607d1-da8c-4506-b2f3-19f591c90926",
+      "name": "Smth1 smth222",
+      "birth": "1999-12-18",
+      "gender": "men",
+      "role": "controller",
+      "company": "",
+      "division": "third",
+      "head": ""
+    },
+    {
+      "id": "29e811f0-9de8-42d3-b722-138816ef7bf5",
+      "name": "Smth1 Smth12",
+      "birth": "1998-12-18",
+      "gender": "men",
+      "role": "department-head",
+      "company": "",
+      "division": "second",
+      "head": ""
+    }
+  ],
+  "heads": [
+    {
+      "id": "29e811f0-9de8-42d3-b722-138816ef7bf5",
+      "name": "Smth1 Smth12"
+    }
+  ]
+}
